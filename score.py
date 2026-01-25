@@ -15,7 +15,10 @@ for counter in range(len(c)):
         sss=""
         if len(ss)>1:
             sss=ss[1].strip()
-            c[counter]="000000000000"+sss+","+ss[0]
+            xxx="000000000000"+sss
+            e=len(xxx)-12
+            xxx=xxx[e:]
+            c[counter]=xxx+","+ss[0]
 c.sort()
 for counter in range(len(c)):
     c[counter]=c[counter].strip()
