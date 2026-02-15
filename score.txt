@@ -1,7 +1,0 @@
-player 1,100
-player 11,700
-joe,500
-ana,600
-player 4,400
-player 6,300
-
